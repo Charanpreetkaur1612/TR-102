@@ -33,12 +33,11 @@ Throughout the training, the following topics will be covered:
 To get started with this repository:
 
 1. *Clone the Repository*: Use the following command to clone the repository to your local machine:
-    bash
-    git clone https://github.com/your-username/web-dev-training.git
+    ```
+    git clone https://github.com/io6-chahat1/TR-102.git
+    ```
     
-2. *Navigate to the Daily Task*: Navigate to the folder of the current date to view and start working on the tasks:
-    bash
-    cd web-dev-training/<YYYY-MM-DD>
+2. *Navigate to the Daily Task*: Navigate to the folder of the current date to view and start working on the tasks.
     
 3. *Follow the Instructions*: Open the README.md file in the folder for detailed instructions on completing the tasks for that day.
 
