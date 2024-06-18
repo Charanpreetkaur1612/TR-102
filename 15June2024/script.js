@@ -1,4 +1,4 @@
-<
+
   //  1) Display first 10 natural numbers
 
   // let num = Number(prompt("Enter How many Natural numbers want to print : "))
