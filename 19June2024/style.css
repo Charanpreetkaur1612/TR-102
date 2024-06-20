@@ -30,9 +30,9 @@ input{
 .box{
     border: 2px solid black;
     background-color: #e7eceab7;
-    max-width: 100vh;
-    width: 300px;
-    height: 310px;
+    min-width: 300px;
+    min-height: 300px;
+    
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -42,39 +42,55 @@ input{
     
 }
 
+.mainBox{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+
 button{
     margin-top: 10px;
-    padding: 5px;
+    margin-left: 5px;
+    padding: 10px 20px 10px 20px;
+
     font-size: 16px;
     border-radius: 10px;
-    background-color: rgb(185, 224, 127);
+    background-color: rgb(34, 107, 210);
     font-size: 14px;
     font-weight: 600;
-    color: rgba(223, 32, 41, 0.904);
+    color: rgba(244, 232, 232, 0.904);
     border: 2px solid rgb(116, 114, 114);
+    
 
 }
 
 button:hover{
-    padding: 5px;
+    /* padding: 12px ; */
     cursor: pointer;
-    background-color: rgb(57, 212, 57);
+    background-color: rgb(57, 127, 212);
     color: #e7d3d3;
-    font-size: 18px;
+    font-size: 12px;
 }
 
 .out{
     margin: 10px;
     border: 2px solid black;
     background-color: #e7eceab7;
-    max-width: 100vh;
-    width: 300px;
-    height: 310px;
+    max-width: 100vw;
+    min-width: 300px;
+    min-height: 310px;
+   
     padding: 10px;
     gap: 8px;
     border-radius: 10px;
     visibility: hidden;
 
 }
-
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
 
